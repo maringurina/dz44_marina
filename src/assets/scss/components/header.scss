@@ -1,0 +1,20 @@
+@import "../main/vars.scss";
+
+.header {
+    &__row {
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+.logo {
+    &__img {}
+}
+.nav {
+    &__link {
+        display: inline-block;
+
+    }
+}
+.btn {
+    display: inline-block;
+}
