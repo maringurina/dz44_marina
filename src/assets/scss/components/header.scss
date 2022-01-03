@@ -1,20 +1,44 @@
 @import "../main/vars.scss";
 
 .header {
+
     &__row {
+        padding: 30px 0 25px;
         display: flex;
         flex-wrap: wrap;
+       
+        align-items: center;
+
     }
 }
 .logo {
+    margin-right: 200px;
     &__img {}
 }
 .nav {
     &__link {
         display: inline-block;
-
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 19px;
+        color: $primary-color;
+        padding: 5px 25px;
     }
 }
 .btn {
     display: inline-block;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    color: $light-color;
+    background: $primary-light-color;
+    border-radius: 5px;
+    padding: 10px 15px;
+    margin-left: auto;
+
+    &:hover {
+        background-color: $primary-color;
+    }
+
+
 }
