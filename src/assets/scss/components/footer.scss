@@ -1,6 +1,9 @@
 .footer {
     background-color: #252525;
-    &__p {
-        color: $seconary-color;
-    }
+   
+    
+.info{
+    display: inline-flex;
+    justify-content: space-between;
+
 }
