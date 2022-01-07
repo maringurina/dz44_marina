@@ -1,0 +1,23 @@
+.advantage-item {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    flex: 1 0 calc(33.3333% - 40px/3);
+    max-width: calc(33.33% - 40px/3);
+
+    &__img {
+        flex: 1 0 10%;
+        max-width: 10%;
+    }
+
+    &__content {
+        flex: 1 0 90%;
+        max-width: 90%;
+    }
+
+    &__title {}
+
+    &__description {
+
+    }
+}
