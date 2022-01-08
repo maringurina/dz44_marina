@@ -3,10 +3,12 @@ include ../mixins/menu-item
 
 section.fs
     .container 
-        h1.fs__title Making time a good time by making food the good food.
-        p.fs__text There are many things are needed to start the Fast Food Business. You need not only Just Food Stalls with Persons but also specialized equipment,
-        button.btn Order Now
-        button.btn Food Details
+        .text 
+            h1.fs__title Making time a good time by making food the good food.
+            p.fs__text There are many things are needed to start the Fast Food Business. You need not only Just Food Stalls with Persons but also specialized equipment,
+        
+            button.btn Order Now
+            button.btn Food Details
         img(src=".//assets/imgs/foto.png", alt="foto").foto-img
         
     .container_center
@@ -18,8 +20,8 @@ section.fs
         +advantage-item("./assets/imgs/smile.png","Super Taste","It can be a very secure path to earn good money and make you very successful creative entrepreneur.")
 
     .container_menu 
-        img(src="./asets/imgs/Menu.png", alt="")
-        h3 Food Full of treaty Love
+        h3 Menu
+        h2 Food Full of treaty Love
         p There are many things are needed to start the Fast Food Business. You need not only Just Food Stalls with Persons but also specialized equipment, Skills to manage Customers, 
         .fs__menu 
         +menu-item("./assets/imgs/eat.png","Vegie Muffen","16$","There are many things are needed to start the Fast Food Business.")
