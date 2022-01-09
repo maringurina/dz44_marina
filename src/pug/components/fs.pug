@@ -1,32 +1,12 @@
-include ../mixins/advantage-item
-include ../mixins/menu-item
 
-section.fs
-    .container 
-        .text 
+.container 
+    section.fs
+        .fs__content 
             h1.fs__title Making time a good time by making food the good food.
             p.fs__text There are many things are needed to start the Fast Food Business. You need not only Just Food Stalls with Persons but also specialized equipment,
         
             button.btn Order Now
             button.btn Food Details
-        img(src=".//assets/imgs/foto.png", alt="foto").foto-img
+        img(src=".//assets/imgs/foto.png", alt="foto").fs__img
         
-    .container_center
-        h3 Features
-        h2 Food with a New Passion
-        .fs__advantages
-        +advantage-item("./assets/imgs/house.png","Quality Food","It can be a very secure path to earn good money and make you very successful creative entrepreneur.")
-        +advantage-item("./assets/imgs/moto.png","Food Delivery","It can be a very secure path to earn good money and make you very successful creative entrepreneur.")
-        +advantage-item("./assets/imgs/smile.png","Super Taste","It can be a very secure path to earn good money and make you very successful creative entrepreneur.")
-
-    .container_menu 
-        h3 Menu
-        h2 Food Full of treaty Love
-        p There are many things are needed to start the Fast Food Business. You need not only Just Food Stalls with Persons but also specialized equipment, Skills to manage Customers, 
-        .fs__menu 
-        +menu-item("./assets/imgs/eat.png","Vegie Muffen","16$","There are many things are needed to start the Fast Food Business.")
-        +menu-item("./assets/imgs/eat2.png","Salads","12$","There are many things are needed to start the Fast Food Business.")
-        +menu-item("./assets/imgs/eat3.png","Burger","10$","There are many things are needed to start the Fast Food Business.")
-        +menu-item("./assets/imgs/eat4.png","Delmonico Steak dish","14$","There are many things are needed to start the Fast Food Business.")
-        +menu-item("./assets/imgs/eat5.png","Egg Masala","9$","There are many things are needed to start the Fast Food Business.")
-        +menu-item("./assets/imgs/eat6.png","Peach Melba dish","15$","There are many things are needed to start the Fast Food Business.")
+    

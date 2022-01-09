@@ -1,18 +1,14 @@
 .menu-item {
-    display: inline-flex;
-    justify-content: flex-start;
+    width: 33.3333%;
     box-sizing: border-box;
-
-
+    
     &__img {
-        
-        background: url(XAWO3cHvnE.jpg);
-        border-radius: 10px 10px 0px 0px;
+        background: #C4C4C4;
+        border-radius: 76px 10px 76px 0px;
     }
 
     &__content {
-        display: flex;
-        align-items: flex-start;
+        
     
     }
 
@@ -22,9 +18,18 @@
         font-weight: bold;
         font-size: 25px;
         line-height: 24px;
-        display: flex;
         align-items: center;
-
+        color: $primary-color;
+        padding: 2px 3px 2px;
+        margin: 10px;
+    }
+    &__price {
+        font-family: $seconary-font;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 25px;
+        line-height: 24px;
+        text-align: right;
         color: $primary-color;
     }
 
@@ -34,12 +39,10 @@
         font-weight: normal;
         font-size: 16px;
         line-height: 24px;
-        
-        display: flex;
         align-items: center;
-
         color: $primary-color;
-
         opacity: 0.7;
+        margin: 10px 10px 10px;
+        padding: 5px;
     }
 } 

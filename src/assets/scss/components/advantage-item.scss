@@ -1,17 +1,16 @@
 .advantage-item {
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
+    //display: flex;
+    //justify-content: space-between;
+    //align-items: flex-start;
+    width: 33.3333%;
+    text-align: center;
     
-    
-
     &__img {
-       
+       padding: 10px 10px;
     }
 
     &__content {
-       justify-content: space-between;
-        
+       //justify-content: space-between;
        
     }
 

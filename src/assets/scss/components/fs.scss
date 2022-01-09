@@ -1,8 +1,11 @@
 @import "../main/vars.scss";
 
 .fs {
-    background: url("../assets/imgs/foto.png") center/cover no-repeat;
+    display: flex;
     padding: 160px 0 150px;
+    &__fs__content{
+        width: 50%;
+    }
 
     &__title {
         font-weight: bold;
@@ -31,4 +34,9 @@
         background: $light-color;
         padding: 20px;
     }
+    &__img {
+        width: 50%;
+        position: relative;
+    }
 }
+    

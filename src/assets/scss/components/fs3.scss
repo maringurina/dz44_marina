@@ -1,0 +1,49 @@
+.fs3 {
+    align-items: center;
+    max-width: 1140px;
+    padding: 0 15px;
+    margin: 0 auto;
+    
+
+    &__title {
+        font-family: $primary-font;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 24px;
+        
+        text-align: center;
+        letter-spacing: 0.2em;
+        text-transform: uppercase;
+        color: $primary-light-color;
+        opacity: 0.7;
+    }
+    &__cont {
+        font-family: $seconary-font;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 31.25px;
+        line-height: 24px;
+        color: $primary-color;
+        text-align: center;
+    }
+    &__text {
+        font-family: $primary-font;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 24px;
+        text-align: center;
+        color: $primary-color;
+        opacity: 0.7;
+        padding-left: 180px;
+        padding-right: 180px;
+        margin: 15px 15px;
+    }
+    &__menu {
+        display: flex;
+        flex-wrap: wrap;
+        
+    }   
+
+}
