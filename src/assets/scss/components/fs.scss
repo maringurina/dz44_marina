@@ -3,8 +3,17 @@
 .fs {
     display: flex;
     padding: 160px 0 150px;
+
+@media (max-width: 991px) {
+    display: inline;
+}
+    
     &__fs__content{
         width: 50%;
+    
+    @media (max-width: 991px) {
+        width: 60%;
+    }
     }
 
     &__title {
@@ -14,7 +23,11 @@
         color: $primary-color;
         max-width: 600px;
         margin: 0 0 50px;
-               
+    
+    @media (max-width: 991px) {
+        font-size: 30px;
+
+    }
     }
 
     &__text {
@@ -37,6 +50,15 @@
     &__img {
         width: 50%;
         position: relative;
+        
+        @media (max-width: 991px) {
+            width: 40%;
+            
+        }
+        @media (max-width: 575px) {
+            display: none;
+        }
     }
+    
 }
     
