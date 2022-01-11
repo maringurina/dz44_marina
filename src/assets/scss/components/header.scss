@@ -39,11 +39,14 @@
     color: $light-color;
     background: $primary-light-color;
     border-radius: 5px;
-    padding: 10px 15px;
+    padding: 15px 20px;
     margin-left: auto;
 
     &:hover {
         background-color: $primary-color;
+    }
+    @media (max-width: 991px) {
+        margin-left: auto;
     }
 }
     
